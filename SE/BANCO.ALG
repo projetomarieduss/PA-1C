@@ -15,11 +15,12 @@ escreval(" Quanto você gostaria de sacar?")
 leia(saque)
 
 tt <- saldo-saque
-positivo <- (tt>=0)
-negativo <- (tt<=(-0))
-escreval("voce agora tem em sua conta o total de ",tt)
-escreval("positivo:",positivo)
-escreval("negativo:",negativo)
+se  (tt>=0)entao
+    escreval("voce agora tem em sua conta o total de R$",tt," positivos")
+senao
+   escreval("seu saldo esta com:R$",tt," negativo")
+
+fimse
 
 escreval("Espero que tenha gostado.")
 escreval("Volte sempre que houver dúvidas.")
